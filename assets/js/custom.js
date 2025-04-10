@@ -1,0 +1,1 @@
+// Academic Pages 템플릿의 원래 기능을 사용합니다 

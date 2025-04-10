@@ -1,0 +1,72 @@
+/* Academic Pages 원래 템플릿 스타일 유지하면서 간격 조정 */
+
+/* 네비게이션과 콘텐츠 사이 간격 줄이기 */
+.masthead {
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid #f2f3f3;
+  padding-bottom: 0 !important;
+}
+
+/* 메인 컨테이너 여백 조정 */
+#main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 사이드바 이미지와 메인 콘텐츠 제목 정렬 */
+.author__avatar {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.author__avatar img {
+  margin-bottom: 10px;
+}
+
+.page__title, .archive__item-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* 제목 간격 조정 */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* 메인 콘텐츠 상단 여백 조정 */
+.page__content {
+  margin-top: 0.5em;
+}
+
+/* 페이지 헤더 정렬 */
+.page__inner-wrap header {
+  margin-bottom: 1em;
+}
+
+/* 레이아웃 정렬 */
+@media (min-width: 1024px) {
+  .sidebar {
+    margin-top: 0;
+    position: sticky;
+    top: 2em;
+  }
+  
+  .page {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  /* 메인 콘텐츠와 사이드바 상단 정렬 */
+  #main {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  /* 제목과 이미지 정확히 정렬 */
+  .page__title, h1.page__title {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.2;
+  }
+} 
