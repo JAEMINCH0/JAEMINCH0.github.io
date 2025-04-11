@@ -1,11 +1,25 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
+
+## Jaemin Cho - Curriculum Vitae
+
+My CV is available for download as a PDF file. It includes detailed information about my academic background, research experience, skills, and accomplishments.
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="{{ site.baseurl }}/files/cv/CV_Jaemin_Cho.pdf" class="btn btn--primary" style="font-size: 1.2em; padding: 0.75em 1.5em;">
+    <i class="fas fa-download" aria-hidden="true"></i> Download CV (PDF)
+  </a>
+</div>
+
+### Overview
+
+- **M.S. student** in Computer Science at Stony Brook University, advised by Prof. François Rameau
+- Research focus on Visual Localization, 3D Reconstruction, and NeRF-based methods
+- Experienced in computer vision and deep learning techniques
 
 {% include base_path %}
 

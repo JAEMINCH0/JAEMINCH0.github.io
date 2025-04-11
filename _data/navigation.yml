@@ -19,5 +19,8 @@ main:
     
   - title: "Timeline"
     url: /timeline/
+    
+  - title: "CV"
+    url: /cv/
   
 
