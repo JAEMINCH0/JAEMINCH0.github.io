@@ -11,7 +11,7 @@ author_profile: true
 * Interested in **Computer Vision, 3D Reconstruction, Visual Localization**.
 * Enjoy playing **Tennis** during leisure time.
 
-Have a look at my Curriculum Vitae (coming soon) for more details and [Google Scholar](https://scholar.google.com/) for full list of publications.
+Have a look at my [Curriculum Vitae](/files/cv/CV_Jaemin_Cho.pdf) for more details and [Google Scholar](https://scholar.google.com/) for full list of publications.
 
 ## Updates {#updates}
 
