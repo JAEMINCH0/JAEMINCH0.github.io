@@ -19,7 +19,13 @@
   padding-top: 0;
 }
 
+/* 프로필 이미지 크기 조정 */
 .author__avatar img {
+  max-width: 180px !important;
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50%;
+  object-fit: cover;
   margin-bottom: 10px;
 }
 
