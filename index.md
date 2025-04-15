@@ -4,17 +4,8 @@ title: "About Me"
 author_profile: true
 ---
 
-* **M.S. student** in Computer Science at **Stony Brook University**, advised by [Prof. François Rameau].
-* Previously worked on **Visual Localization & 4D Reconstruction**.
-* Worked on **NeRF-SNN Hybrid Models for Energy-Efficient 3D**.
-* Experienced with **Scene Coordinate Regression** in outdoor environments.
-* Interested in **Computer Vision, 3D Reconstruction, Visual Localization**.
-* Enjoy playing **Tennis** during leisure time.
+Hello! I am a second semester Computer Science M.S. student at [Stony Brook University](https://stonybrook.edu/), advised by [Prof. François Rameau](https://rameau-fr.github.io/). Prior to that, I was a research intern at [KEPCO Research Institute](https://www.kepri.re.kr:20808/newEng/index) and did B.E. in Electronic Engineering at [Inha University](https://www.inha.ac.kr/)
 
-Have a look at my [Curriculum Vitae](/files/cv/CV_Jaemin_Cho.pdf) for more details and [Google Scholar](https://scholar.google.com/) for full list of publications.
+My primary research focus is to establish a scientific foundation for 3D geometric understanding in computer vision. Concretely, my research interests include: (i) developing **Visual Localization fraemworks** (e.g., scene coordinate regression) that efficiently and accurately map RGB images to 6 DoF poses, and (ii) reconstructing **Explicit 3D/4D Representations** from uncalibrated and unposed cameras (e.g., DUSt3R, MonST3R).
 
-## Updates {#updates}
-
-* Working on Visual Localization projects
-* Implementing 3D reconstruction algorithms
-* Exploring energy-efficient NeRF alternatives
+I am open to collaboration opportunities in 3D Vision research or related fields. Please feel free to contact me at [jaemin.cho@stonybrook.edu].
