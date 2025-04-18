@@ -1,0 +1,92 @@
+/* Project Layout Styles */
+
+/* 프로젝트 카드 그리드 레이아웃 */
+.projects {
+  margin-top: 2rem;
+}
+
+.projects .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* 프로젝트 카드 스타일 */
+.card {
+  border: none;
+  background-color: #fff;
+  height: 100%;
+}
+
+.card h2.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card h3.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card .card-img-top, .card .card-img {
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-top, .card:hover .card-img {
+  opacity: 0.9;
+}
+
+/* 카테고리 스타일 */
+h2.category {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  color: #555;
+}
+
+/* 프로젝트 설명 텍스트 */
+.projects .card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* GitHub 아이콘 및 스타 스타일링 */
+.github-icon {
+  margin-top: 0.5rem;
+}
+
+.github-icon .icon {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.github-icon .gh-icon {
+  transition: color 0.3s ease;
+}
+
+.github-icon .icon:hover .gh-icon {
+  color: #6c63ff;
+}
+
+/* 반응형 설정 */
+@media (max-width: 767px) {
+  .projects .row {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-img-top, .card-img {
+    height: 180px;
+  }
+}
+
+/* 호버 효과 강화 */
+.hoverable {
+  transition: all 0.3s ease;
+}
+
+.hoverable:hover {
+  transform: translateY(-5px);
+} 

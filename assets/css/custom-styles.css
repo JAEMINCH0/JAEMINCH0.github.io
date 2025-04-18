@@ -121,3 +121,86 @@ img.responsive {
     line-height: 1.2;
   }
 } 
+
+/* 프로젝트 페이지 스타일 */
+.projects {
+  margin-bottom: 40px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card.hoverable:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top, .card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.github-icon {
+  display: flex;
+  align-items: center;
+}
+
+.gh-icon {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.stars {
+  margin-left: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Project Name Style */
+#project_name a {
+  display: inline-flex;
+  padding-left: 7px;
+  margin-left: -2px;
+  text-align: -webkit-auto;
+  vertical-align: baseline;
+  font-size: 18px;
+}
+
+#project_name > .breadcrumb {
+  padding: 0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  font-weight: normal;
+  margin-top: -2px;
+}
+
+#project_name > ul > li > a > i.fa.fa-home {
+  color: #ff7823;
+  font-size: 17pt;
+  display: inline-block;
+  position: static;
+  padding: 0px 0px;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: text-top;
+} 
