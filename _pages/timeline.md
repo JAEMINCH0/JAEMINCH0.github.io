@@ -103,7 +103,7 @@ author_profile: true
       </div>
       
       <!-- fourth timeline box -->
-      <div class="timeline_box box-1" data-aos="fade-right" data-aos-offset="30" data-aos-duration="700" data-aos-easing="ease-in-sine">
+      <div class="timeline_box box-2" data-aos="fade-right" data-aos-offset="30" data-aos-duration="700" data-aos-easing="ease-in-sine">
         <div class="timeline_card">
           <!-- indicator pointer -->
           <div class="icon">
@@ -130,7 +130,7 @@ author_profile: true
       
       
       <!-- fifth timeline box -->
-      <div class="timeline_box box-2" data-aos="fade-left" data-aos-offset="30" data-aos-duration="700" data-aos-easing="ease-in-sine">
+      <div class="timeline_box box-1" data-aos="fade-left" data-aos-offset="30" data-aos-duration="700" data-aos-easing="ease-in-sine">
         <div class="timeline_card">
           <!-- indicator pointer -->
           <div class="icon">
