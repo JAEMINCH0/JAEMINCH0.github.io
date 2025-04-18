@@ -240,6 +240,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -366,3 +369,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Enable project categories
+enable_project_categories: true

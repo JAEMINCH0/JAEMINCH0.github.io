@@ -1,0 +1,9 @@
+<!-- _includes/figure.liquid -->
+<figure>
+  <img {% if include.loading %}loading="{{ include.loading }}"{% endif %} 
+       src="{{ include.path | relative_url }}" 
+       {% if include.class %}class="{{ include.class }}"{% endif %} 
+       alt="{{ include.title }}" 
+       {% if include.width %}width="{{ include.width }}"{% endif %}>
+  {% if include.title %}<figcaption>{{ include.title }}</figcaption>{% endif %}
+</figure> 
