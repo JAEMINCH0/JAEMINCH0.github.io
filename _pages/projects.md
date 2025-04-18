@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [work]
+display_categories: [current, past]
 horizontal: false
 ---
 
@@ -14,6 +14,17 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">
+      {% if category == 'current' %}
+        Current Projects
+      {% elsif category == 'past' %}
+        Past Projects
+      {% else %}
+        {{ category | capitalize }}
+      {% endif %}
+    </h2>
+  </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
@@ -60,23 +71,3 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-
-## Current Projects
-
-### SLATE: Scalable Localization And Tracking for Autonomous Parking Environment
-* Designing Mixture of Scene Coordinate Experts for Visual Localization on large-scale datasets
-* Proposal under review for the Austria–Korea Joint Mobility Program (2025–2027)
-
-<img src="/images/MEAL.png" alt="MEAL Model" width="400"/>
-<img src="/images/MEAL_Pipeline.png" alt="MEAL Pipeline" width="400"/>
-
-### 4D Multi-Car Accident Reconstruction from Dashcam Footage
-* Researching Multi-view Alignment methods for Dynamic 4D Scene Reconstruction
-* Proposal under review for the Czech–Korea Joint Research Program (2025–2027)
-
-<img src="/images/Pic.png" alt="4D Reconstruction" width="400"/>
-
-## Past Projects
-
-### Honeywell CO Detector
-* Developed Arm Cortex-M3 MCU with integrated sensors for reliable CO detection.

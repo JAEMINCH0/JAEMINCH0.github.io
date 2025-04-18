@@ -4,7 +4,7 @@ title: 4D Reconstruction
 description: 4D Multi-Car Accident Reconstruction from Dashcam Footage
 img: /images/Pic.png
 importance: 2
-category: work
+category: current
 related_publications: false
 ---
 

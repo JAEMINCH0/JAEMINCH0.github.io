@@ -4,7 +4,7 @@ title: CO Detector
 description: Honeywell CO Detector with Arm Cortex-M3 MCU
 img: 
 importance: 3
-category: work
+category: past
 related_publications: false
 ---
 

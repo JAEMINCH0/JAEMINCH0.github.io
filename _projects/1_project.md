@@ -4,7 +4,7 @@ title: SLATE
 description: Scalable Localization And Tracking for Autonomous Parking Environment
 img: /images/MEAL.png
 importance: 1
-category: work
+category: current
 related_publications: true
 ---
 

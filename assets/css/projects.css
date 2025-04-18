@@ -16,6 +16,9 @@
   border: none;
   background-color: #fff;
   height: 100%;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .card h2.card-title {
@@ -89,4 +92,5 @@ h2.category {
 
 .hoverable:hover {
   transform: translateY(-5px);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 } 
