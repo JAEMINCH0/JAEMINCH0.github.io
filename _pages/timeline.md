@@ -103,6 +103,33 @@ author_profile: true
       </div>
       
       <!-- fourth timeline box -->
+      <div class="timeline_box box-1" data-aos="fade-right" data-aos-offset="30" data-aos-duration="700" data-aos-easing="ease-in-sine">
+        <div class="timeline_card">
+          <!-- indicator pointer -->
+          <div class="icon">
+            <div class="circle"></div>
+          </div>
+          <!-- timeline content -->
+          <div class="timeline_content">
+            <div class="company_box">
+              <h5 class="role">HR Specialist</h5>
+              <p class="company_name">U.S. Army</p>
+            </div>
+            <div class="working_detail">
+              <h6 class="type">Military Service | <span>Camp Carroll, Korea</span></h6>
+              <p class="duration_time">
+                Jan. 2023 - Jun. 2023
+              </p>
+            </div>
+            <hr>
+            <p class="desc"> Assigned to 2-1 Air Defense Artillery, Headquarters Orderly Room via KATUSA (Korean Augmentation To The United States Army)
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- fifth timeline box -->
       <div class="timeline_box box-2" data-aos="fade-left" data-aos-offset="30" data-aos-duration="700" data-aos-easing="ease-in-sine">
         <div class="timeline_card">
           <!-- indicator pointer -->
