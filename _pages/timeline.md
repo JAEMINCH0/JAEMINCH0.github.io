@@ -118,7 +118,7 @@ author_profile: true
             <div class="working_detail">
               <h6 class="type">Military Service | <span>Camp Carroll, Korea</span></h6>
               <p class="duration_time">
-                Jan. 2023 - Jun. 2023
+                Jul. 2019 - Jan. 2021
               </p>
             </div>
             <hr>
