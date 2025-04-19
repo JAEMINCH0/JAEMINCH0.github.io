@@ -13,61 +13,6 @@
   padding-top: 0 !important;
 }
 
-/* 사이드바 이미지와 컨텐츠 정렬 */
-.author__avatar {
-  display: block;
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.author__avatar img {
-  max-width: 150px;
-  border-radius: 50%;
-}
-
-.author__content {
-  text-align: center;
-  padding: 1em 0;
-}
-
-.author__name {
-  margin: 0;
-  padding: 0.5em 0;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.author__bio {
-  margin: 0;
-  padding: 0.25em 0;
-}
-
-.author__urls-wrapper {
-  position: relative;
-  margin-top: 1em;
-}
-
-.author__urls {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.author__urls li {
-  padding: 0.25em 0;
-}
-
-.main {
-  margin-left: 300px;
-  padding: 2em;
-}
-
-.page__title, .archive__item-title {
-  margin-top: 0;
-  padding-top: 0;
-}
-
 /* 제목 간격 조정 */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0.5em;
@@ -131,12 +76,6 @@ img.responsive {
 
 /* 레이아웃 정렬 */
 @media (min-width: 1024px) {
-  .sidebar {
-    margin-top: 0;
-    position: sticky;
-    top: 2em;
-  }
-  
   .page {
     margin-top: 0;
     padding-top: 0;
@@ -154,7 +93,7 @@ img.responsive {
     padding-top: 0;
     line-height: 1.2;
   }
-} 
+}
 
 /* 프로젝트 페이지 스타일 */
 .projects {
@@ -208,44 +147,4 @@ img.responsive {
   margin-left: 5px;
   font-size: 0.9rem;
   color: #666;
-}
-
-/* Project Name Style */
-#project_name a {
-  display: inline-flex;
-  padding-left: 7px;
-  margin-left: -2px;
-  text-align: -webkit-auto;
-  vertical-align: baseline;
-  font-size: 18px;
-}
-
-#project_name > .breadcrumb {
-  padding: 0px;
-  margin-bottom: 0px;
-  background-color: transparent;
-  font-weight: normal;
-  margin-top: -2px;
-}
-
-#project_name > ul > li > a > i.fa.fa-home {
-  color: #ff7823;
-  font-size: 17pt;
-  display: inline-block;
-  position: static;
-  padding: 0px 0px;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: text-top;
-}
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 100vh;
-  padding: 2em 1em;
-  background-color: #f5f5f5;
-  overflow-y: auto;
 } 
