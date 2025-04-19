@@ -47,15 +47,40 @@
 .author__urls-wrapper {
   position: relative;
   margin-top: 1em;
+  text-align: left;
+}
+
+.author__urls-wrapper button {
+  display: none;
 }
 
 .author__urls {
+  position: relative !important;
+  margin: 0;
   padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
   list-style-type: none;
+  display: block !important;
 }
 
 .author__urls li {
-  padding: 0.25em 0;
+  padding: 0.5em 0;
+  font-size: 1em;
+  white-space: nowrap;
+}
+
+.author__urls li a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.author__urls li i {
+  margin-right: 0.5em;
+  width: 1em;
+  text-align: center;
 }
 
 .main {
@@ -237,4 +262,15 @@ img.responsive {
   font-weight: normal;
   text-align: center;
   vertical-align: text-top;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  padding: 2em 1em;
+  background-color: #f5f5f5;
+  overflow-y: auto;
 } 
