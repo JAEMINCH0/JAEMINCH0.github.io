@@ -15,10 +15,23 @@
 
 /* 사이드바 스타일 */
 .sidebar {
-  position: fixed;
-  height: 100vh;
-  overflow-y: auto;
-  padding-top: 2em;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    float: left;
+    width: calc(200px - 1em);
+    opacity: 1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    padding-top: 2em;
+  }
 }
 
 .author__avatar {
@@ -147,9 +160,13 @@
   text-decoration: underline;
 }
 
-.main {
-  margin-left: 300px;
-  padding: 2em;
+/* 메인 콘텐츠 영역 */
+@media screen and (min-width: 1024px) {
+  .page {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    padding-right: 2em;
+  }
 }
 
 /* 제목 간격 조정 */
@@ -168,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-/* 이미지 크기 조정 클래스 */
+/* 이미지 크기 조정 클래스들 */
 .img-small {
   width: 200px;
   height: auto;
@@ -211,27 +228,6 @@ img.responsive {
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-/* 레이아웃 정렬 */
-@media (min-width: 1024px) {
-  .page {
-    margin-top: 0;
-    padding-top: 0;
-  }
-  
-  /* 메인 콘텐츠와 사이드바 상단 정렬 */
-  #main {
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  /* 제목과 이미지 정확히 정렬 */
-  .page__title, h1.page__title {
-    margin-top: 0;
-    padding-top: 0;
-    line-height: 1.2;
-  }
 }
 
 /* 프로젝트 페이지 스타일 */
