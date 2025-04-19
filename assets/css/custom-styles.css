@@ -13,7 +13,7 @@
   padding-top: 0 !important;
 }
 
-/* 사이드바 이미지와 메인 콘텐츠 제목 정렬 */
+/* 사이드바 이미지와 컨텐츠 정렬 */
 .author__avatar {
   display: block;
   width: 150px;
@@ -21,7 +21,6 @@
   margin: 0 auto;
 }
 
-/* 프로필 이미지 크기 조정 */
 .author__avatar img {
   max-width: 150px;
   border-radius: 50%;
@@ -47,40 +46,16 @@
 .author__urls-wrapper {
   position: relative;
   margin-top: 1em;
-  text-align: left;
-}
-
-.author__urls-wrapper button {
-  display: none;
 }
 
 .author__urls {
-  position: relative !important;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 0;
-  background: transparent;
-  box-shadow: none;
-  list-style-type: none;
-  display: block !important;
 }
 
 .author__urls li {
-  padding: 0.5em 0;
-  font-size: 1em;
-  white-space: nowrap;
-}
-
-.author__urls li a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
-
-.author__urls li i {
-  margin-right: 0.5em;
-  width: 1em;
-  text-align: center;
+  padding: 0.25em 0;
 }
 
 .main {
