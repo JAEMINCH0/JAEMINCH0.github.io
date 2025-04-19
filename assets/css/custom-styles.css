@@ -17,12 +17,86 @@
 /* 사이드바 위치 고정 */
 .sidebar {
   position: fixed;
-  left: 0;
   top: 0;
-  padding-top: 2em;
-  max-height: 100vh;
-  overflow-y: auto;
+  left: 0;
   width: 300px;
+  height: 100vh;
+  padding: 2em 1em;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+.author__avatar {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.author__avatar img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.author__content {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.author__name {
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.author__bio {
+  margin: 0;
+  padding: 0.25em 0;
+}
+
+.author__urls-wrapper {
+  position: relative;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.author__urls-wrapper button {
+  display: none;
+}
+
+.author__urls {
+  position: relative !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  list-style-type: none;
+  display: block !important;
+}
+
+.author__urls li {
+  padding: 0.5em 0;
+  font-size: 1em;
+  white-space: nowrap;
+}
+
+.author__urls li a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.author__urls li i {
+  margin-right: 0.5em;
+  width: 1em;
+  text-align: center;
+}
+
+.main {
+  margin-left: 300px;
+  padding: 2em;
 }
 
 /* 제목 간격 조정 */
