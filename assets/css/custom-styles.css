@@ -11,6 +11,18 @@
 #main {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  margin-left: 300px !important; /* 사이드바 너비만큼 여백 추가 */
+}
+
+/* 사이드바 위치 고정 */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 2em;
+  max-height: 100vh;
+  overflow-y: auto;
+  width: 300px;
 }
 
 /* 제목 간격 조정 */
