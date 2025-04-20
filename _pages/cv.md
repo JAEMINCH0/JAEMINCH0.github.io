@@ -10,7 +10,7 @@ author_profile: true
 My CV is available for download as a PDF file. It includes detailed information about my academic background, research experience, skills, and accomplishments.
 
 <div style="text-align: center; margin: 2em 0;">
-  <a href="{{ site.url }}/files/CV_20250416.pdf" class="btn btn--primary" style="font-size: 1.2em; padding: 0.75em 1.5em;">
+  <a href="/files/CV_20250416.pdf" class="btn btn--primary" style="font-size: 1.2em; padding: 0.75em 1.5em;">
     <i class="fas fa-download" aria-hidden="true"></i> Download CV (PDF)
   </a>
 </div>
@@ -20,6 +20,22 @@ My CV is available for download as a PDF file. It includes detailed information 
 - **M.S. student** in Computer Science at Stony Brook University, advised by Prof. François Rameau
 - Research focus on Visual Localization, 3D Reconstruction, and NeRF-based methods
 - Experienced in computer vision and deep learning techniques
+
+### Education
+* M.S. in Computer Science, Stony Brook University, 2024-Present
+* B.E. in Electronic Engineering, Inha University, 2017-2024
+
+### Research Experience
+* Research Intern, KEPCO Research Institute, 2023
+  * Developed deep learning models for power facility inspection
+  * Implemented computer vision algorithms for defect detection
+  * Supervisor: Dr. Hong Gil-dong
+
+### Skills
+* Programming Languages: Python, C++, MATLAB
+* Deep Learning: PyTorch, TensorFlow
+* Computer Vision: OpenCV, COLMAP
+* Others: Git, Linux, LaTeX
 
 {% include base_path %}
 
@@ -46,15 +62,6 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
