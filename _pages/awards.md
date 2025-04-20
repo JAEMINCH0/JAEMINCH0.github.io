@@ -12,7 +12,7 @@ Sponsored by **UK International Development**, **The Asia Foundation**, **Data f
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
   <div style="flex: 1;">
-    <img src="/images/NAAMII.png" alt="NAAMII Award" style="width: 100%; height: auto;">
+    <img src="/images/NAAMII.PNG" alt="NAAMII Award" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
     <img src="/images/Certificate.png" alt="Certificate" style="width: 100%; height: auto;">
